@@ -1,9 +1,7 @@
-name: Package Release
-
+name: Generate and Publish OSCAL Artifacts
 permissions:
   contents: write            # required to create releases / upload assets
   issues: read               # optional, used by generate_release_notes
-
 on:
   push:
     branches:
@@ -15,7 +13,6 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
   workflow_dispatch:
-name: Process Content Artifacts
 env:
   HOME_REPO: iMichaela/ism-oscal
   # With the default GEN_CONTENT_DIR, the resulting catalogs, profiles, and
