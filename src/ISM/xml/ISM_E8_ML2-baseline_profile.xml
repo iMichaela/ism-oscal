@@ -131,11 +131,11 @@
       <resource uuid="abea4b79-3bd3-4f68-a333-85cbebb5100d">
          <title>Information security manual</title>
          <rlink media-type="application/xml"
-                href="./ISM-rev_catalog.xml"/>
+                href="./ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="./ISM-rev_catalog.json"/>
+                href="./ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="/ISM-rev_catalog.yaml"/>
+                href="/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="3f19a985-786f-437c-8f65-6336aa50e2d7">
          <title>Information security manual Essential Eight Maturity Level Two Baseline</title>

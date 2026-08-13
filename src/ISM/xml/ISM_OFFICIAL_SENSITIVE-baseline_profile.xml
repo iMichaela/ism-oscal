@@ -1059,11 +1059,11 @@
       <resource uuid="abea4b79-3bd3-4f68-a333-85cbebb5100d">
          <title>Information security manual</title>
          <rlink media-type="application/xml"
-                href="./ISM-rev_catalog.xml"/>
+                href="./ISM_catalog.xml"/>
          <rlink media-type="application/json"
-                href="./ISM-rev_catalog.json"/>
+                href="./ISM_catalog.json"/>
          <rlink media-type="application/oscal+yaml"
-                href="/ISM-rev_catalog.yaml"/>
+                href="/ISM_catalog.yaml"/>
       </resource>
       <resource uuid="d906e45a-d402-4dc4-957d-7c815f22d2b8">
          <title>Information security manual OFFICIAL: Sensitive Baseline</title>
