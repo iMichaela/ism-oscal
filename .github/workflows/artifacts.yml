@@ -53,7 +53,7 @@ jobs:
       - name: Zip Artifacts for Upload
         if: always()
         run: |
-          zip ${{ runner.temp }}/generated-content.zip -r README.md ISM/ 
+          zip ${{ runner.temp }}/generated-content.zip -r README.md AUISM/ NXZISM/
         working-directory: ${{ github.workspace }}
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
